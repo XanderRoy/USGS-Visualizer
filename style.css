@@ -1,0 +1,47 @@
+#mapbox {height: 100vh;}
+
+ul {
+    list-style-type: box;
+    list-style-position: inside;
+    margin-right: 1vw;
+}
+
+.legend{
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+
+
+}
+
+span:after {
+    content: '';
+    display: block;
+    clear:both;
+  }
+
+.legend span:before {
+    content: "■";
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+  }
+  span.one:before
+{
+background:  green; 
+}
+span.two:before
+{
+background:  yellow; 
+}
+span.three:before
+{
+background:  orange; 
+}
+span.four:before
+{
+background:  red; 
+}
